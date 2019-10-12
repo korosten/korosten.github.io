@@ -364,7 +364,47 @@ elemphotogallerylink.innerText="Фотогалерея";
 </div>
 </div></div></div></div></div>
 <div style="background-color: rgba(31,73,125,1); color: white;  width:100%; padding-left:25px; padding-bottom: 0px; ">
-<div style="position:relative; float:right; padding-top:30px; padding-bottom:20px; background-color: rgba(31,73,125,1); color: white;">
+
+<div style="position:relative; float:left; width:150px; padding-top:30px;">
+
+<!-- Top100 (Kraken) Widget -->
+<span id="top100_widget"></span>
+<!-- END Top100 (Kraken) Widget -->
+
+<!-- Top100 (Kraken) Counter -->
+<script>
+    (function (w, d, c) {
+    (w[c] = w[c] || []).push(function() {
+        var options = {
+            project: 6851097,
+            element: 'top100_widget',
+        };
+        try {
+            w.top100Counter = new top100(options);
+        } catch(e) { }
+    });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src =
+    (d.location.protocol == "https:" ? "https:" : "http:") +
+    "//st.top100.ru/top100/top100.js";
+
+    if (w.opera == "[object Opera]") {
+    d.addEventListener("DOMContentLoaded", f, false);
+} else { f(); }
+})(window, document, "_top100q");
+</script>
+<noscript>
+  <img src="//counter.rambler.ru/top100.cnt?pid=6851097" alt="Топ-100" />
+</noscript>
+<!-- END Top100 (Kraken) Counter -->
+
+</div>        
+        
+        <div style="position:relative; float:right; padding-top:30px; padding-bottom:20px; background-color: rgba(31,73,125,1); color: white;">
 <h2 id="websitetitlesmall" style="padding-top:0px; margin-top:0px; padding-bottom:0px; margin-bottom:0px; margin-right:30px; text-align:left;">Ласкаво просимо!</h2>
 </div>
 </div>
