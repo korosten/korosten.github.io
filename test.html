@@ -115,6 +115,7 @@ var elemphotogallerylink = document.getElementById("photogallerylink");
 var elemrightdecoration = document.getElementById("rightdecoration");
 var elemrightdecorationholder = document.getElementById("rightdecorationholder");
 var elemtopdecoration = document.getElementById("topdecoration");
+var elemcounter = document.getElementById("counterwidget");
 if(document.documentElement.clientWidth>1200){
 elemwebsitetitle.style.fontSize = "65px";
 elemtopdecoration.style.display="block";
@@ -123,6 +124,7 @@ elemleftimg.style.width="100%";
 elemleftcol.style.width="55%";
 elemrightdecorationholder.style.width="30%";
 elemrightdecoration.style.backgroundSize="250px";
+elemcounter.style.width="80px";
 if(document.documentElement.clientWidth>1300){
 elemrightdecoration.style.backgroundSize="300px";
 }
@@ -137,6 +139,7 @@ elemleftcol.style.width="55%";
 elemrightdecorationholder.style.width="30%";
 elemtopdecoration.style.display="block";
 elemweatherlink.style.display="inline";
+elemcounter.style.width="80px";
 }
 else
 {
@@ -148,6 +151,7 @@ elemrightdecorationholder.style.width="11%";
 elemrightdecoration.style.backgroundImage="url('patterns/31.png')";
 elemrightdecoration.style.backgroundSize="250px";
 elemtopdecoration.style.display="none";
+elemcounter.style.width="0px";
 if(document.documentElement.clientWidth>650){
 elemweatherlink.style.display="inline";
 }
